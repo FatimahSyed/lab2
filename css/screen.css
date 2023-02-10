@@ -1,1 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #66ffcc 32%, #cc99ff 100%);
+}
 
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  padding: 25px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
